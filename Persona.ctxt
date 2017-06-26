@@ -1,11 +1,11 @@
 #BlueJ class context
-comment0.target=Personas
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Personas\ here.\r\n\ Clase\ Personas\r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.target=Persona
+comment0.text=\r\n\ Definicion\ de\ objeto\ general\ "Personas".\r\n\ @author\ (\#\#\#\#\#\#\#\ CAMBIAR\ A\ NUESTRO\ NOMBRE\#\#\#\#\#\#)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=Personas()
+comment1.target=Persona()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Trabajador\r\n
-comment10.params=dato_nuevo
-comment10.target=void\ Modificar_alta(boolean)
+comment10.params=
+comment10.target=void\ Modificar_alta()
 comment11.params=
 comment11.target=java.lang.String\ DNI()
 comment11.text=\r\nDevuelve\ parametros\ del\ objeto\ persona\r\n
@@ -27,7 +27,7 @@ comment19.params=
 comment19.target=boolean\ alta()
 comment2.params=dato_nuevo
 comment2.target=void\ modificar_DNI(java.lang.String)
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment2.text=\r\n\ Metodos\ para\ modificar\ las\ variables\r\n
 comment3.params=dato_nuevo
 comment3.target=void\ Modificar_telefono(java.lang.String)
 comment4.params=dato_nuevo

@@ -1,13 +1,11 @@
 
 /**
- * Write a description of class Personas here.
- * Clase Personas
- * @author (your name) 
+ * Definicion de objeto general "Personas".
+ * @author (####### CAMBIAR A NUESTRO NOMBRE######) 
  * @version (a version number or a date)
  */
-public class Personas
+public class Persona
 {
-    // instance variables - replace the example below with your own
     private String DNI;
     private String telefono;
     private String direccion;
@@ -21,10 +19,10 @@ public class Personas
     /**
      * Constructor for objects of class Trabajador
      */
-    public Personas()
+    public Persona()
     {
-        // initialise instance variables
         DNI = "N/A";
+        telefono = "N/A";
         direccion = "N/A";
         nombre = "N/A";
         primer_apellido = "N/A";
@@ -35,10 +33,7 @@ public class Personas
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Metodos para modificar las variables
      */
     public void modificar_DNI(String dato_nuevo)
     {
@@ -72,9 +67,14 @@ public class Personas
     {
         fecha_alta_en_la_base = dato_nuevo;
     }
-    public void Modificar_alta(boolean dato_nuevo)
+    public void Modificar_alta()
     {
-        alta = dato_nuevo;
+        if (alta == false){
+            alta = true;
+        }
+        else{
+            alta = false;
+        }
     }
     
     /**

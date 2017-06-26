@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Trabajador extends Personas
+public class Trabajador extends Persona
 {
     // instance variables - replace the example below with your own
     private int numero_de_trabajador;
@@ -16,14 +16,11 @@ public class Trabajador extends Personas
     public Trabajador()
     {
         // initialise instance variables
-        numero_de_trabajador = 123456789;
+        numero_de_trabajador = 000000000;
     }
 
     /**
-     * An example of a method - replace this comment with your own
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
      */
     
     public void modificar_numero_de_trabajador(int Nuevo_dato)
