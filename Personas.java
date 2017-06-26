@@ -1,7 +1,7 @@
 
 /**
  * Write a description of class Personas here.
- * 
+ * Clase Personas
  * @author (your name) 
  * @version (a version number or a date)
  */
